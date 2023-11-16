@@ -29,7 +29,7 @@ const SavePicScreen = ({ navigation, route }) => {
         mode="contained"
         onPress={() => navigation.navigate('ConfirmationScreen')}
       >
-        保存
+        Save Picture
       </Button>
     </View>
   );
