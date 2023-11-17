@@ -28,6 +28,10 @@ const LoginScreen = ({ navigation }) => {
       // Navigate to normal user screen 
       navigation.navigate('AnotherScreen', { userName: enteredUserName });
     }
+
+    // Reset the state values for email and password
+    setEmail("");
+    setPassword("");
   };
   
 
