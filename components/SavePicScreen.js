@@ -106,11 +106,14 @@ const styles = StyleSheet.create({
     ...StyleSheet.absoluteFillObject,
     justifyContent: 'flex-end',
     alignItems: 'center',
-    padding: 10,
+    padding: 0,
   },
   overlayText: {
-    fontSize: 16,
+    fontSize: 10,
     color: 'white',
+    backgroundColor: 'black',
+    paddingRight: 5,
+    paddingLeft: 5
   },
 });
 
